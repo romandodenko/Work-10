@@ -1,0 +1,216 @@
+:root {
+  // Шрифты
+  --font-main: "Newsreader", sans-serif; // главный шрифт на странице
+  --font-second: "Baskervville", sans-serif; // главный шрифт на странице
+
+  // Контейнер
+  --container-width: 1120px; // ширина контейнера
+  --container-step: 20px; // падинги по бокам на пк
+  --container-step-tablet: 15px; // падинги по бокам на планшетах
+  --container-step-mobile: 10px; // падинги по бокам на мобилках
+  --container: calc(var(--container-width) + (var(--container-step) * 2)); // сам контейнер
+
+  // Цвета
+  --background-page: #f1f1f1; // бекграунд страницы
+  --main: #000000;
+  --black: #000000;
+  --white: #ffffff;
+  --l-dark: #2a2727;
+  --dark: #1a1a1a;
+  --blue: #a5dbff;
+  --d-blue: #45b6ff;
+  --linear: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 150%);
+  --gray: #ebebeb;
+  --black-opacity: rgba(54, 54, 54, 0.57);
+
+  --hover: #74c3f8; // цвет при ховере
+  --active: #74c3f8; // цвет при активе
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--container-step);
+
+  @media (max-width: 991px) {
+    padding: 0 var(--container-step-tablet);
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 var(--container-step-mobile);
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-main);
+  min-height: 100vh;
+  overflow: hidden;
+  color: var(--main);
+  background-color: var(--background-page);
+}
+
+main {
+  flex: 1 1 auto;
+
+  &:not(:last-child) {
+    margin-bottom: 80px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--d-blue);
+  width: fit-content;
+  border-radius: 5px;
+  min-width: 89px;
+  min-height: 54px;
+  transition: background-color .3s ease-in-out, border-color .3s ease-in-out, color .3s ease-in-out;
+
+  &_change {
+    min-height: 30px;
+    background-color: transparent;
+    color: var(--black);
+    border-bottom: 1px solid var(--black);
+    border-radius: 0;
+  }
+
+  &_height {
+    min-height: 42px;
+    border-radius: 38px;
+  }
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: var(--hover);
+      border-color: transparent;
+      color: var(--white);
+    }
+  }
+
+  &:focus-visible {
+    background-color: var(--hover);
+    border-color: transparent;
+    color: var(--white);
+  }
+
+  &:active {
+    background-color: var(--active);
+    border-color: transparent;
+    color: var(--white);
+    transition-duration: .1s;
+  }
+}
+
+.input {
+  display: block;
+  padding: 0 50px;
+  border-radius: 44px;
+  width: 100%;
+  min-height: 74px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%; 
+  color: var(--black);
+  border: 2px solid transparent;
+  background-color: var(--gray);
+  transition: border-color .3s ease-in-out;
+
+  @media (any-hover: hover) {
+    &:hover {
+      border-color: var(--hover);
+    }
+  }
+
+  &:focus-visible {
+    border-color: var(--hover);
+  }
+
+  &::placeholder {
+    opacity: .5;
+    color: var(--black);
+  }
+}
+
+.tt-64-40 {
+  font-family: var(--font-second);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 120%;
+
+  @media (max-width: 1220px) {
+    font-size: 54px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 48px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 40px;
+  }
+}
+
+.tt-53-36 {
+  font-family: var(--font-second);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 120%;
+
+  @media (max-width: 991px) {
+    font-size: 42px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 36px;
+  }
+}
+
+.tt-31-24 {
+  font-family: var(--font-second);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 140%;
+
+  @media (max-width: 991px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.tx-17 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+}
+
+.tx-22 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+}

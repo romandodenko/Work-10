@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="sl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="Hotel Slovenija - Terme & Wellness LifeClass - Varne počitnice, dobro razpoloženje in ocenjevalne igre">
+  <meta property="og:site_name"
+    content="Hotel Slovenija - Terme & Wellness LifeClass je eden izmed najboljših hotelov v Sloveniji, ki ponuja visoko stopnjo storitev in nezahtevne počitnice za goste. Nahaja se v letoviškem mestu Portorož in ponuja edinstvene možnosti za sprostitev in ozdravitev.">
+  <meta name="twitter:title"
+    content="Hotel Slovenija - Terme & Wellness LifeClass - Varne počitnice, dobro razpoloženje in ocenjevalne igre">
+  <meta name="twitter:description"
+    content="Hotel Slovenija - Terme & Wellness LifeClass je eden izmed najboljših hotelov v Sloveniji, ki ponuja visoko stopnjo storitev in nezahtevne počitnice za goste. Nahaja se v letoviškem mestu Portorož in ponuja edinstvene možnosti za sprostitev in ozdravitev.">
+  <meta name="description"
+    content="Hotel Slovenija - Terme & Wellness LifeClass je eden izmed najboljših hotelov v Sloveniji, ki ponuja visoko stopnjo storitev in nezahtevne počitnice za goste. Nahaja se v letoviškem mestu Portorož in ponuja edinstvene možnosti za sprostitev in ozdravitev.">
+  <title>Hotel Slovenija - Terme & Wellness LifeClass - Varne počitnice, dobro razpoloženje in ocenjevalne igre</title>
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="preload" href="./fonts/Forum-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Ultra-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/main-min.css">
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <!-- start header -->
+    <?php
+    include 'header.php';
+    ?>
+    <!-- end header -->
+    <main>
+
+      <!-- start hero -->
+      <section class="hero rd-upload rd-background" data-rd-image="./img/hero.jpg" data-rd-image-webp="./img/hero.webp">
+        <div class="hero__container container">
+          <div class="hero__descr">
+            <h1 class="hero__title tt-42-30">
+              Hotel Slovenija Terme & Wellness LifeClass Casino
+            </h1>
+            <div class="hero__texts">
+              <p class="hero__text tx-24-18">
+                Je eden izmed najboljših hotelov v Sloveniji, ki ponuja visoko stopnjo storitev in nezahtevne počitnice
+                za goste. Nahaja se v letoviškem mestu Portorož in ponuja edinstvene možnosti za sprostitev in
+                ozdravitev.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start rooms -->
+      <section class="rooms rd-upload" id="rooms">
+        <div class="container">
+          <h2 class="rooms__title tt-42-30">
+            Sobe
+          </h2>
+          <div class="rooms__texts rooms__texts_top">
+            <p class="rooms__text tx-24-18">
+              Hotel Slovenija ponuja široko izbiro udobnih in stilsko urejenih sob, ki veljajo za najvišje standarde
+              kakovosti. Gosti lahko izberejo standardne sobe z udobnimi posteljami in sodobno opremo, ki zagotavljajo
+              udobno bivanje v času njihovega položaja. Za tiste, ki želijo luksuz in ekskluzivnost, so v hotelu na
+              voljo tudi luksuzne luksuzne sobe, ki ponujajo prostorno notranjost in luksuzne kopalne sobe.
+            </p>
+          </div>
+          <ul class="rooms__list">
+            <li class="rooms__item">
+              <div class="rooms__image">
+                <img src="." data-rd-image="./img/rooms-1.jpg" data-rd-image-webp="./img/rooms-1.webp" width="366"
+                  height="366" alt="Dvoposteljna soba z balkonom in pogledom na morje">
+              </div>
+              <div class="rooms__descr">
+                <div class="rooms__name tx-24-18">
+                  Dvoposteljna soba z balkonom in pogledom na morje
+                </div>
+                <div class="rooms__texts">
+                  <p class="rooms__text tx-16-14">
+                    Sodobna, klimatizirana soba z opremljenim balkonom s pogledom na Jadransko morje. Vključuje TV z
+                    ravnim zaslonom, mini bar in sef. Zasebne kopalnice vključujejo prho, brezplačen toaletni pribor in
+                    sušilec za lase.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="rooms__item">
+              <div class="rooms__image">
+                <img src="." data-rd-image="./img/rooms-2.jpg" data-rd-image-webp="./img/rooms-2.webp" width="366"
+                  height="366" alt="Apartma Junior z balkonom in pogledom na morje">
+              </div>
+              <div class="rooms__descr">
+                <div class="rooms__name tx-24-18">
+                  Apartma Junior z balkonom in pogledom na morje
+                </div>
+                <div class="rooms__texts">
+                  <p class="rooms__text tx-16-14">
+                    Klimatiziran apartma je sodobno opremljen in se odpira na opremljen balkon s pogledom na Jadransko
+                    morje. TV z ravnim zaslonom, mini bar in sef. Zasebna kopalnica vključuje sušilec za lase,
+                    brezplačen toaletni pribor in kad ali prho.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="rooms__item">
+              <div class="rooms__image">
+                <img src="." data-rd-image="./img/rooms-3.jpg" data-rd-image-webp="./img/rooms-3.webp" width="366"
+                  height="366" alt="Družinska soba (2 odrasla + 1 otrok)">
+              </div>
+              <div class="rooms__descr">
+                <div class="rooms__name tx-24-18">
+                  Družinska soba (2 odrasla + 1 otrok)
+                </div>
+                <div class="rooms__texts">
+                  <p class="rooms__text tx-16-14">
+                    Sodobna, klimatizirana soba z opremljenim balkonom. Vključuje TV z ravnim zaslonom, mini bar in sef.
+                    Zasebna kopalnica vključuje sušilec za lase, brezplačen toaletni pribor in kad ali prho.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end rooms -->
+
+      <!-- start about -->
+      <section class="about rd-upload" id="about">
+        <div class="container">
+          <h2 class="about__title tt-42-30">
+            O nas
+          </h2>
+          <div class="about__content">
+            <div class="about__left">
+              <div class="about__texts">
+                <p class="about__text tx-16-14">
+                  Hotel Slovenija - Terme & Wellness LifeClass ponuja posebne ponudbe in programe za maksimalno
+                  sprostitev in počutje. Tukaj najdete spa-center, ki ponuja širok spekter postopkov in terapij za
+                  izboljšanje zdravja in krepitev telesa. Na območju hotela je tudi bazen, fitnes in različne športne
+                  površine za aktivni oddih.
+                </p>
+                <p class="about__text tx-16-14">
+                  Hotel ponuja tudi široko izbiro restavracij, kjer si lahko pripravijo kuhano kuhinjo, pripravljeno iz
+                  svežih in lokalnih izdelkov. V vsaki restavraciji je na voljo unikaten meni, pripravljen z najboljšimi
+                  šef-povarami, da bi popravili tudi najbolj vzorčne gurmane.
+                </p>
+                <p class="about__text tx-16-14">
+                  Poleg tega se vila Hotel Slovenija nahaja v neposredni bližini številnih znamenitosti, ki so lahko
+                  zanimive za goste. V nekaj minutah hoje od hotela se nahaja plaža Portorož, kjer gosti lahko uživajo v
+                  soncu in morskih sprehodih. V bližini so tudi zgodovinske in kulturne znamenitosti, kot so zamak
+                  Miramar in Staro mesto Piran, ki ponujajo edinstvene možnosti za poznanstva s slavnim prošlym tega
+                  čudovitega območja.
+                </p>
+              </div>
+            </div>
+            <ul class="about__images">
+              <li class="about__image">
+                <img src="." data-rd-image="./img/about-1.jpg" data-rd-image-webp="./img/about-1.webp" width="336"
+                  height="336" alt="O nas">
+              </li>
+              <li class="about__image">
+                <img src="." data-rd-image="./img/about-2.jpg" data-rd-image-webp="./img/about-2.webp" width="336"
+                  height="336" alt="O nas">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- end about -->
+
+      <!-- start gallery -->
+      <section class="gallery rd-upload" id="gallery">
+        <div class="container">
+          <h2 class="gallery__title tt-42-30">
+            Galerija
+          </h2>
+          <ul class="gallery__images">
+            <li class="gallery__image">
+              <img src="." data-rd-image="./img/gallery-1.jpg" data-rd-image-webp="./img/gallery-1.webp" width="336"
+                height="336" alt="Galerija">
+            </li>
+            <li class="gallery__image">
+              <img src="." data-rd-image="./img/gallery-2.jpg" data-rd-image-webp="./img/gallery-2.webp" width="336"
+                height="336" alt="Galerija">
+            </li>
+            <li class="gallery__image">
+              <img src="." data-rd-image="./img/gallery-3.jpg" data-rd-image-webp="./img/gallery-3.webp" width="336"
+                height="336" alt="Galerija">
+            </li>
+            <li class="gallery__image">
+              <img src="." data-rd-image="./img/gallery-4.jpg" data-rd-image-webp="./img/gallery-4.webp" width="336"
+                height="336" alt="Galerija">
+            </li>
+            <li class="gallery__image">
+              <img src="." data-rd-image="./img/gallery-5.jpg" data-rd-image-webp="./img/gallery-5.webp" width="336"
+                height="336" alt="Galerija">
+            </li>
+            <li class="gallery__image">
+              <img src="." data-rd-image="./img/gallery-6.jpg" data-rd-image-webp="./img/gallery-6.webp" width="336"
+                height="336" alt="Galerija">
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end gallery -->
+
+      <!-- start slots -->
+      <section class="slots rd-upload">
+        <div class="container">
+          <h2 class="slots__title tt-42-30">
+            Slot room
+          </h2>
+          <div class="slots__texts">
+            <p class="slots__text tx-16-14">
+              "Slot room" v hotelu Slovenija - Terme & Wellness LifeClass v Sloveniji je jasen primer razkošja in
+              sodobnega sveta azartnih razvedril. V tej igri so predstavljene le najbolj napredne in najnovejše igre,
+              ustvarjene z upoštevanjem zadnjih tehnoloških dosežkov v industriji azartnih iger. Nahaja se v samem srcu
+              hotela, "slot room" predstavlja vaše goste in obiskovalce edinstvene atmosfere valovanja in azarta.
+            </p>
+            <p class="slots__text tx-16-14">
+              Ta "soba z igralnimi avtomati" sprejema goste v udobni in izkušeni namestitvi, ki ponuja široko izbiro
+              najnovejših iger, ustvarjenih z vodilnimi proizvajalci razvedrilnih tehnik. Tukaj se obiskovalci lahko
+              nasladijo samimi prvimi igrami, pogruziti se v svet azarta in preizkusiti užitek od azartnih iger.
+            </p>
+            <p class="slots__text tx-16-14">
+              "Slot room" v hotelu Hotel Slovenija - Terme & Wellness LifeClass je nepogrešljiv del lakšeri-opyta gostov
+              hotela. To mesto, kjer se srečujejo z razkošjem, najnovejšimi igralnimi tehnologijami in azartnimi
+              zabavami, da bi se vsak gost uspel nasladiti z edinstvenim in zajemajočim igralnim izkustvom v čudoviti
+              ustanovi.
+            </p>
+          </div>
+          <ul class="slots__images slots__images_column">
+            <li class="slots__image">
+              <img src="." data-rd-image="./img/slot-1.jpg" data-rd-image-webp="./img/slot-1.webp" width="336"
+                height="336" alt="Slot room">
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end slots -->
+    </main>
+    <!-- start footer -->
+    <?php
+    include 'footer.php';
+    ?>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>
